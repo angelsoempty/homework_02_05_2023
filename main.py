@@ -1,4 +1,4 @@
 def func(*args):
-    return ', '.join(str(arg) for arg in args)
-result = func('gleb', 'sasha', 'ya')
+    return (max(args), min(args))
+result = func(1,5,7,2,65,21,14)
 print(result)
